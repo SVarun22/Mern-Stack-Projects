@@ -1,10 +1,6 @@
-import { useState } from 'react'
-import React from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import {Routes,Route} from 'react-router-dom'
 import Home from './pages/Home'
-
+import React from 'react'
 import './App.css'
 import Collection from './pages/Collection'
 import About from './pages/About'
@@ -15,7 +11,7 @@ import Login from './pages/Login'
 import Orders from './pages/Orders'
 import Navbar from './components/Navbar'
 import PlaceOrder from './pages/PlaceOrder'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
 import { ToastContainer, toast } from 'react-toastify';
 
